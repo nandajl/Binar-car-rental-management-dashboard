@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "carrental",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "carrental_stagging",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "carrental_production",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}

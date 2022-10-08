@@ -1,0 +1,30 @@
+{
+  "name": "carmanagementapi",
+  "version": "1.0.0",
+  "description": "API for car rental management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandajl/challenge-05-binar.git"
+  },
+  "keywords": [
+    "challenge-05-binar"
+  ],
+  "author": "Nanda JL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandajl/challenge-05-binar/issues"
+  },
+  "homepage": "https://github.com/nandajl/challenge-05-binar#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.24.0"
+  }
+}
